@@ -1,6 +1,6 @@
 # Introduction
 
-This is a test task built for [https://mintdropz.com/](Mindtropz) using React + TailwindCSS.
+This is a test task built for [Mindtropz](https://mintdropz.com/) using React + TailwindCSS.
 Clone the repo on your local machine and run `npm install` to install all the dependencies. After that run `npm start` to run the app.
 
 ## Available Scripts
