@@ -1,6 +1,6 @@
 const GoldenTicket = () => {
   return (
-    <div className="mt-32 z-10 px-20 flex bg-gradient-to-r from-[#AC32E4] via-[#7918F2] to-[#4801FF]">
+    <div className="mt-52 z-10 px-20 flex bg-gradient-to-r from-[#AC32E4] via-[#7918F2] to-[#4801FF]">
       <div className="flex flex-col gap-y-10 mt-16">
         <h3 className="text-5xl font-semibold text-[#E2C668]">
           The Golden Guests

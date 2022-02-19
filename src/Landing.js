@@ -74,6 +74,40 @@ const Landing = () => {
       </section>
       <Collections />
       <GoldenTicket />
+      <div className="flex flex-col gap-y-4 items-center justify-center z-10 mt-52">
+        <h3 className=" text-5xl font-semibold bg-gradient-to-r text-transparent bg-clip-text from-[#00DBDE] to-[#FC00FF]">
+          Get Aped with Us
+        </h3>
+        <div className="flex gap-x-2">
+          <p className="text-2xl hover:border-b-4 ml-20 border-[#007AFF] cursor-pointer">
+            Sign up for our newsletter
+          </p>
+          <img src="/cursor.svg" alt="cursor" />
+        </div>
+      </div>
+      <footer className="mt-44 mx-20 pb-10">
+        <hr />
+        <div className="flex gap-x-6 text-gray-500 pt-6 place-items-center">
+          <img className="w-[178px] h-[44px]" src="/navbar-image.svg" alt="" />
+          <a
+            className=" hover:text-[#7918F2] transition-all ease-in-out duration-300"
+            href="#"
+          >
+            Terms of Service
+          </a>
+          <a
+            className="hover:text-[#7918F2] transition-all ease-in-out duration-300"
+            href="#"
+          >
+            Privacy Policy
+          </a>
+          <div className="flex gap-x-4 grow justify-end mr-10">
+            <img src="twitter.svg" alt="twitter" />
+            <img src="discord.svg" alt="discord" />
+            <img src="instagram.svg" alt="instagram" />
+          </div>
+        </div>
+      </footer>
     </>
   );
 };

@@ -10,7 +10,7 @@ const Collections = () => {
         alt="dots"
       />
       <img
-        className="absolute top-[43rem] -right-20"
+        className="absolute top-[40rem] -right-20"
         src="ellipse3.svg"
         alt="background"
       />
