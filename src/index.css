@@ -18,7 +18,7 @@
 
 @layer components {
   .btnColor {
-    @apply bg-gradient-to-r from-[#AC32E4] via-[#7918F2] to-[#4801FF] hover:from-[#4801FF] hover:via-[#AC32E4] hover:to-[#7918F2] transition transform duration-500 ease-in-out  text-white;
+    @apply bg-gradient-to-r from-[#AC32E4] via-[#7918F2] to-[#4801FF] hover:from-[#4801FF] hover:via-[#AC32E4] hover:to-[#7918F2]  text-white;
   }
 }
 

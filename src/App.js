@@ -1,4 +1,3 @@
-import Collections from "./Collections";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
 
@@ -7,7 +6,6 @@ function App() {
     <div className="text-white flex flex-col">
       <Navbar />
       <Landing />
-      <Collections />
     </div>
   );
 }
