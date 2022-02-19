@@ -18,22 +18,22 @@ const Landing = () => {
           alt=""
         />
       </div>
-      <div className="flex justify-end flex-col gap-y-12 mt-40 mr-40">
-        <img className="absolute -top-20 right-16" src="ellipse2.svg" alt="" />
+      <div className="flex justify-end flex-col mt-32 mr-40">
+        <img className="absolute -top-20 right-2" src="ellipse2.svg" alt="" />
         <div className="flex justify-end mr-32 relative">
-          <h2 className="text-[6rem] font-bold uppercase">Exclusive</h2>
+          <h2 className="text-8xl font-bold uppercase">Exclusive</h2>
           <img
-            className="absolute -right-8 -top-16 -rotate-[55deg]"
+            className="absolute -right-8 -top-8 -rotate-[55deg]"
             src="/vector.svg"
             alt="vector"
           />
           <img
-            className="absolute -right-14 -top-10 -rotate-[20deg]"
+            className="absolute -right-14 -top-4 -rotate-[20deg]"
             src="/vector.svg"
             alt="vector"
           />
           <img
-            className="absolute -right-16 -top-2"
+            className="absolute -right-16 top-4"
             src="/vector.svg"
             alt="vector"
           />
@@ -43,7 +43,7 @@ const Landing = () => {
             newest NFT release
           </h2>
         </div>
-        <div className="flex mt-12 justify-end text-right">
+        <div className="flex mt-20 justify-end text-right">
           <div className="flex flex-col justify-end text-xl max-w-[40rem]">
             <p>
               The <span className="font-bold">BILLIONAIRE CLUB</span> is a
